@@ -1,0 +1,30 @@
+td{
+    width: 1000px;
+    border: solid;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+@keyframes doi-anh{
+    0%{background-image: url(./download\ \(4\).jpg);}
+    50%{background-image: url(./download\ \(5\).jpg);}
+    100%{background-image: url(./download\ \(6\).jpg);}
+}
+body{
+    opacity: 100%;
+    animation: doi-anh 10s infinite;
+    background-size: cover;
+    
+    
+}
+tr{
+    text-decoration: none;
+}
+td:hover{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
