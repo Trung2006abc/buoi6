@@ -1,0 +1,23 @@
+table{
+    width: 1500px;
+    border-collapse: collapse ;
+}
+.nhacsi{
+    background-color: darkgray;
+
+}
+tr:hover{
+    color: aqua;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+   
+
+}
+a:hover{
+    color: blueviolet;
+}
+.cmm{
+     background-color: brown;
+}

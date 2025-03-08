@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font và tổng thể */
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f4f4f4; /* Nền xám */
+    color: #fff; /* Chữ trắng */
+    font-size: 16px; /* Giả định 560px là lỗi, dùng 16px làm mặc định */
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: rgb(66, 189, 189); /* Màu nền tiêu đề liên quan */
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: rgb(19, 151, 151); /* Màu tiêu đề */
+    font-size: 28px; /* Kích thước tiêu đề lớn */
+    font-weight: 700;
+}
+
+/* Container */
+.container {
+    max-width: 1200px; /* Giới hạn chiều rộng */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #560; /* Tông màu chính, giả định #560 (màu đỏ đậm) */
+}
+
+main {
+    padding: 430px 0 0; /* Cách 430px từ trên, điều chỉnh theo yêu cầu */
+}
+
+section h2 {
+    font-size: 24px;
+    color: rgb(134, 186, 186); /* Màu chữ thông thường */
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: rgb(134, 186, 186); /* Màu chữ thông thường */
+    font-weight: 700;
+}
+
+section ul li a:hover {
+    color: rgb(135, 34, 125); /* Màu hover */
+}
+
+.caption {
+    font-size: 14px; /* Kích thước chú thích */
+    color: rgb(134, 186, 186);
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(66, 189, 189); /* Màu nền footer */
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px 0 0; /* Giảm cách trên màn hình nhỏ */
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+}
